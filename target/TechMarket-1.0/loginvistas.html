@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="theme-color" content="#bla"  />
+        <title>TECHMARKET</title>
+        
+    
+        <!-- CSS  -->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+          crossorigin="anonymous"
+        />
+    
+        <link rel="stylesheet" href="css/styles.css" />
+    
+        <script src="https://kit.fontawesome.com/82a1c97255.js" crossorigin="anonymous"></script>
+        <script src="js/login.js"></script>
+    </head>
+
+
+    <body>
+
+        <form class="formulario" id="form-login">
+                
+            <div class="contenedor">
+
+
+                <h1>Login</h1>
+
+               
+                
+                <div class="input-contenedor">
+
+                    <i class="fa-solid fa-envelope icon"></i>
+                    <input type="text" id="usuario" placeholder="Correo" required>
+
+
+                </div>
+
+
+                <div class="input-contenedor">
+
+                    <i class="fa-solid fa-lock icon"></i>
+                    <input type="password" id="contrasena" placeholder="Contraseña" required>
+
+
+                </div>
+                
+                <input type="submit" value="Login" class="button" id="BTNENTRAR">
+
+                
+                <p> ¿ No tienes una cuenta? <a class="link" href="./index.html/#pills-home-tab">Registrarse</a></p>
+                <div id="login-error" class="alert alert-danger d-none" role="alert">Usuario o contraseña incorrectos</div>
+            </div>
+                
+        </form>
+    </body>
+</html>
